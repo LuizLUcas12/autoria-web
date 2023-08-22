@@ -30,12 +30,35 @@ nav a {
     margin-right: 20px;
 }
 
-.hero {
+.texto {
+    position: absolute;
+    background-color: black;
+    width: 1200px;
+    height: 90px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -450px;
+    margin-left: 70px;
+}
+
+.imagem1 img{
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    margin-top: 69px;
+    margin-left: 70px;
+
+}
+.container{
     text-align: center;
-    padding: 3em;
-    background-color: #f4f4f4;
-    padding: 1em;
-    text-align: center;
+    margin: 20px;
+    color: white;
+    margin-top: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 
